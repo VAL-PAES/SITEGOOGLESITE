@@ -1,0 +1,45 @@
+img{
+    height: auto;
+    width: 600px;
+}
+.container {
+    display: inline-block;
+    position: relative;
+  }
+  .container p {
+    position: absolute;
+    top: 145px;
+    right: 20px;
+    font-size: 40px;
+    color: rgb(156, 16, 16);
+  }
+  .bora{
+    background-color: blueviolet;
+    font-size: 50px;
+  }
+  .praia{
+    background-color: red;
+    font-size: 30px;
+  }
+  
+  figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+.borace {
+    max-width: 400px;
+    max-height: 1000px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
